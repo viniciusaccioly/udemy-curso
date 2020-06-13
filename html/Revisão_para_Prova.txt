@@ -1,0 +1,54 @@
+O que é HTML?
+
+HTML (Hypertext Markup Language ou na tradução para o português Linguagem de Marcação de Hipertexto) é uma linguagem utilizada para construção de páginas de Internet. HTML define um conjunto de regras que permite a formatação de páginas. Um documento HTML consiste em um arquivo de texto que será lido e interpretado como uma página por  browsers (navegadores), como por exemplo, Chrome, Firefox, Opera, Edge ou Safari.
+
+Páginas HTML possuem elementos de marcação, chamados de tags, que indicam como a página deverá ser formatada. Tags são indicadas entre os símbolos de <>.
+
+Abaixo temos o exemplo do código de uma simples página HTML:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello</title>
+    </head>
+    
+    <body>
+        <p>Olá, mundo!</p>
+    </body>
+</html>
+
+Como declarar imagens?
+
+Você pode declarar imagens usando a tag <img>. O endereço de uma imagem, isto é, a localização da imagem deverá ser indicada pelo atributo src.
+
+<img src="foto.jpg"> 
+
+Como declarar links?
+
+Links permitem que o usuário navegue de uma página a outra. Devem ser declarados com a tag <a>.
+
+<a href="pagina_2.html">Link para a página 2</a> 
+
+Como declarar formulários?
+
+Formulários permitem que o usuário envie dados para um sistema web. Devem ser declarados com a tag <form>. O atributo action indica a página que será carregada. O método de envio pode ser "post" (mais recomendado) ou "get" (envio pela url).
+
+<form action="recebe.php" method="post" name="form"></form> 
+
+Tipos entradas <input> para formulários:
+text: texto
+
+<input type="text>
+
+password: senhas
+
+<input type="password>
+
+hidden: campo oculto
+
+<input type="hidden>
+
+checkbox: caixa de marcação
+
+<input type="checkbox>
+
